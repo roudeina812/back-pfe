@@ -2,7 +2,9 @@
 
 namespace App\Repository;
 
-class PersonRepository
+use Doctrine\ORM\EntityRepository;
+
+class PersonRepository extends EntityRepository
 {
 
 }

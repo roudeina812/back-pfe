@@ -2,7 +2,9 @@
 
 namespace App\Repository;
 
-class PartnersRepository
+use Doctrine\ORM\EntityRepository;
+
+class PartnersRepository extends EntityRepository
 {
 
 }

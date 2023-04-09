@@ -2,7 +2,9 @@
 
 namespace App\Repository;
 
-class FeedbackRepository
+use Doctrine\ORM\EntityRepository;
+
+class FeedbackRepository extends EntityRepository
 {
 
 }
